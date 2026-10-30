@@ -13,6 +13,7 @@ import {
   FormControl,
   IconButton,
   InputLabel,
+  Link,
   MenuItem,
   Select,
   Snackbar,
@@ -463,9 +464,9 @@ export default function App() {
           <Stack direction={{ xs: "column", sm: "row" }} alignItems={{ xs: "flex-start", sm: "center" }} justifyContent="space-between" spacing={1}>
             <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 0.5, sm: 2 }} alignItems={{ xs: "flex-start", sm: "center" }}>
               <Typography variant="body2" color="text.secondary">© {new Date().getFullYear()} ZCOORE · MultiCode</Typography>
-              <Button component="a" href="mailto:contact@multicode.fr" size="small" color="inherit" sx={{ p: 0, minHeight: 32 }}>
+              <Link component="a" href="mailto:contact@multicode.fr" variant="body2" color="text.secondary" underline="hover" sx={{ display: "inline-flex", alignItems: "center", minHeight: 24 }}>
                 contact@multicode.fr
-              </Button>
+              </Link>
             </Stack>
             <Typography variant="caption" color="text.secondary">Démo gratuite · données conservées sur cet appareil</Typography>
           </Stack>
