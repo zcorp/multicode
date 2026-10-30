@@ -1,6 +1,7 @@
 # MultiCode — démo statique
 
 Démo publique de génération de **vrais QR codes statiques**, hébergée gratuitement sur GitHub Pages et servie sur `https://multicode.fr`.
+Copyright © ZCOORE. Contact : [contact@multicode.fr](mailto:contact@multicode.fr).
 
 ## Ce que la démo fait réellement
 

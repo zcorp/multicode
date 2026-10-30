@@ -461,8 +461,13 @@ export default function App() {
       <Box component="footer" sx={{ py: 3, borderTop: 1, borderColor: "divider" }}>
         <Container maxWidth="lg">
           <Stack direction={{ xs: "column", sm: "row" }} alignItems={{ xs: "flex-start", sm: "center" }} justifyContent="space-between" spacing={1}>
-            <Typography variant="body2" color="text.secondary">© {new Date().getFullYear()} MultiCode · Démo statique gratuite</Typography>
-            <Typography variant="caption" color="text.secondary">Les données enregistrées restent sur cet appareil.</Typography>
+            <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 0.5, sm: 2 }} alignItems={{ xs: "flex-start", sm: "center" }}>
+              <Typography variant="body2" color="text.secondary">© {new Date().getFullYear()} ZCOORE · MultiCode</Typography>
+              <Button component="a" href="mailto:contact@multicode.fr" size="small" color="inherit" sx={{ p: 0, minHeight: 32 }}>
+                contact@multicode.fr
+              </Button>
+            </Stack>
+            <Typography variant="caption" color="text.secondary">Démo gratuite · données conservées sur cet appareil</Typography>
           </Stack>
         </Container>
       </Box>
