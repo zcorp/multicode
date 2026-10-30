@@ -40,6 +40,8 @@ Dans les réglages du dépôt GitHub `zcorp/multicode`, activer **Settings → P
 
 Le workflow n’accède à aucun secret applicatif ni à l’API MultiCode. L’activation de HTTPS peut attendre la propagation DNS et la validation du domaine par GitHub.
 
+Si le premier workflow échoue avec `Get Pages site failed ... Not Found`, activer d’abord Pages comme ci-dessus, puis lancer `Deploy static demo to GitHub Pages` depuis l’onglet **Actions → Run workflow**.
+
 ## Stack
 
 React, Material UI (composants et icônes), Vite et `qrcode`. Le générateur encode le contenu localement; aucune API tierce de génération de QR n’est appelée.
